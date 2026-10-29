@@ -1,0 +1,266 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/HelloNoel/pinakes/main/schema/pinakes.schema.json",
+  "title": "pinakes index",
+  "description": "A YAML-encoded pinakes index (version 1).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "name",
+    "entries"
+  ],
+  "properties": {
+    "version": {
+      "description": "Spec major version. Implementations reject unknown values.",
+      "type": "integer",
+      "const": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string"
+    },
+    "command_policy": {
+      "$ref": "#/$defs/commandPolicy"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "#/$defs/docEntry"
+          },
+          {
+            "$ref": "#/$defs/indexEntry"
+          },
+          {
+            "$ref": "#/$defs/mergeEntry"
+          },
+          {
+            "$ref": "#/$defs/commandEntry"
+          }
+        ]
+      }
+    }
+  },
+  "$defs": {
+    "gitRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "branch": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tag": {
+          "type": "string",
+          "minLength": 1
+        },
+        "commit": {
+          "type": "string",
+          "pattern": "^[0-9a-fA-F]{7,40}$"
+        },
+        "token_env": {
+          "type": "string",
+          "minLength": 1
+        },
+        "submodules": {
+          "type": "boolean",
+          "default": true
+        }
+      },
+      "not": {
+        "anyOf": [
+          {
+            "required": [
+              "branch",
+              "tag"
+            ]
+          },
+          {
+            "required": [
+              "branch",
+              "commit"
+            ]
+          },
+          {
+            "required": [
+              "tag",
+              "commit"
+            ]
+          }
+        ]
+      }
+    },
+    "commandPolicy": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "allow": {
+          "type": "string",
+          "minLength": 1
+        },
+        "timeout_secs": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "commonEntryFields": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string"
+        },
+        "repo": {
+          "$ref": "#/$defs/gitRef"
+        }
+      }
+    },
+    "docEntry": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/commonEntryFields"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "name",
+            "path"
+          ],
+          "properties": {
+            "kind": {
+              "const": "doc"
+            },
+            "id": true,
+            "name": true,
+            "description": true,
+            "repo": true,
+            "path": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      ]
+    },
+    "indexEntry": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/commonEntryFields"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "name",
+            "path"
+          ],
+          "properties": {
+            "kind": {
+              "const": "index"
+            },
+            "id": true,
+            "name": true,
+            "description": true,
+            "repo": true,
+            "path": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      ]
+    },
+    "mergeEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "path"
+      ],
+      "properties": {
+        "kind": {
+          "const": "merge"
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prefix": {
+          "type": "string"
+        },
+        "repo": {
+          "$ref": "#/$defs/gitRef"
+        }
+      }
+    },
+    "commandEntry": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/commonEntryFields"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "name",
+            "argv"
+          ],
+          "properties": {
+            "kind": {
+              "const": "command"
+            },
+            "id": true,
+            "name": true,
+            "description": true,
+            "repo": true,
+            "argv": {
+              "type": "array",
+              "minItems": 1,
+              "prefixItems": [
+                {
+                  "type": "string",
+                  "minLength": 1
+                }
+              ],
+              "items": {
+                "type": "string"
+              }
+            },
+            "success_exit_codes": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 255
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+version: 1
+name: Python 3.14
+description: 'Python 3.14 tutorial and standard library: control flow, containers, modules, exceptions,
+  classes, virtual environments, asyncio tasks and coroutines.'
+entries:
+- id: control-flow-and-functions
+  name: Control flow and functions
+  kind: doc
+  path: Doc/tutorial/controlflow.rst
+  repo:
+    url: https://github.com/python/cpython.git
+    branch: '3.14'
+    submodules: false
+- id: lists-dictionaries-sets-and-comprehensions
+  name: Lists, dictionaries, sets and comprehensions
+  kind: doc
+  path: Doc/tutorial/datastructures.rst
+  repo:
+    url: https://github.com/python/cpython.git
+    branch: '3.14'
+    submodules: false
+- id: modules-and-packages
+  name: Modules and packages
+  kind: doc
+  path: Doc/tutorial/modules.rst
+  repo:
+    url: https://github.com/python/cpython.git
+    branch: '3.14'
+    submodules: false
+- id: files-and-json
+  name: Files and JSON
+  kind: doc
+  path: Doc/tutorial/inputoutput.rst
+  repo:
+    url: https://github.com/python/cpython.git
+    branch: '3.14'
+    submodules: false
+- id: exceptions
+  name: Exceptions
+  kind: doc
+  path: Doc/tutorial/errors.rst
+  repo:
+    url: https://github.com/python/cpython.git
+    branch: '3.14'
+    submodules: false
+- id: classes-and-inheritance
+  name: Classes and inheritance
+  kind: doc
+  path: Doc/tutorial/classes.rst
+  repo:
+    url: https://github.com/python/cpython.git
+    branch: '3.14'
+    submodules: false
+- id: virtual-environments-and-pip
+  name: Virtual environments and pip
+  kind: doc
+  path: Doc/tutorial/venv.rst
+  repo:
+    url: https://github.com/python/cpython.git
+    branch: '3.14'
+    submodules: false
+- id: asyncio-tasks-and-coroutines
+  name: Asyncio tasks and coroutines
+  kind: doc
+  path: Doc/library/asyncio-task.rst
+  repo:
+    url: https://github.com/python/cpython.git
+    branch: '3.14'
+    submodules: false

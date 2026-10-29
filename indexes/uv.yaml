@@ -1,0 +1,69 @@
+version: 1
+name: uv
+description: 'Official rolling uv documentation: Python installation, projects, tools, scripts, dependencies,
+  workspaces, environment synchronization and GitHub Actions integration.'
+entries:
+- id: install-python
+  name: Install Python
+  kind: doc
+  path: docs/guides/install-python.md
+  repo:
+    url: https://github.com/astral-sh/uv.git
+    branch: main
+    submodules: false
+- id: projects
+  name: Projects
+  kind: doc
+  path: docs/guides/projects.md
+  repo:
+    url: https://github.com/astral-sh/uv.git
+    branch: main
+    submodules: false
+- id: tools
+  name: Tools
+  kind: doc
+  path: docs/guides/tools.md
+  repo:
+    url: https://github.com/astral-sh/uv.git
+    branch: main
+    submodules: false
+- id: scripts
+  name: Scripts
+  kind: doc
+  path: docs/guides/scripts.md
+  repo:
+    url: https://github.com/astral-sh/uv.git
+    branch: main
+    submodules: false
+- id: dependencies
+  name: Dependencies
+  kind: doc
+  path: docs/concepts/projects/dependencies.md
+  repo:
+    url: https://github.com/astral-sh/uv.git
+    branch: main
+    submodules: false
+- id: workspaces
+  name: Workspaces
+  kind: doc
+  path: docs/concepts/projects/workspaces.md
+  repo:
+    url: https://github.com/astral-sh/uv.git
+    branch: main
+    submodules: false
+- id: locking-and-synchronization
+  name: Locking and synchronization
+  kind: doc
+  path: docs/concepts/projects/sync.md
+  repo:
+    url: https://github.com/astral-sh/uv.git
+    branch: main
+    submodules: false
+- id: github-actions-integration
+  name: GitHub Actions integration
+  kind: doc
+  path: docs/guides/integration/github.md
+  repo:
+    url: https://github.com/astral-sh/uv.git
+    branch: main
+    submodules: false

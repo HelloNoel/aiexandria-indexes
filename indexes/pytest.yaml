@@ -1,0 +1,69 @@
+version: 1
+name: pytest
+description: 'Official rolling pytest documentation: assertions, fixtures, parametrization, monkeypatching,
+  captured output, skip and xfail, test layout and imports.'
+entries:
+- id: getting-started
+  name: Getting started
+  kind: doc
+  path: doc/en/getting-started.rst
+  repo:
+    url: https://github.com/pytest-dev/pytest.git
+    branch: main
+    submodules: false
+- id: assertions
+  name: Assertions
+  kind: doc
+  path: doc/en/how-to/assert.rst
+  repo:
+    url: https://github.com/pytest-dev/pytest.git
+    branch: main
+    submodules: false
+- id: fixtures
+  name: Fixtures
+  kind: doc
+  path: doc/en/how-to/fixtures.rst
+  repo:
+    url: https://github.com/pytest-dev/pytest.git
+    branch: main
+    submodules: false
+- id: parametrization
+  name: Parametrization
+  kind: doc
+  path: doc/en/how-to/parametrize.rst
+  repo:
+    url: https://github.com/pytest-dev/pytest.git
+    branch: main
+    submodules: false
+- id: monkeypatching
+  name: Monkeypatching
+  kind: doc
+  path: doc/en/how-to/monkeypatch.rst
+  repo:
+    url: https://github.com/pytest-dev/pytest.git
+    branch: main
+    submodules: false
+- id: captured-output
+  name: Captured output
+  kind: doc
+  path: doc/en/how-to/capture-stdout-stderr.rst
+  repo:
+    url: https://github.com/pytest-dev/pytest.git
+    branch: main
+    submodules: false
+- id: skip-and-xfail
+  name: Skip and xfail
+  kind: doc
+  path: doc/en/how-to/skipping.rst
+  repo:
+    url: https://github.com/pytest-dev/pytest.git
+    branch: main
+    submodules: false
+- id: test-layout-and-good-practices
+  name: Test layout and good practices
+  kind: doc
+  path: doc/en/explanation/goodpractices.rst
+  repo:
+    url: https://github.com/pytest-dev/pytest.git
+    branch: main
+    submodules: false

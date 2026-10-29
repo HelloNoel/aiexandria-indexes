@@ -1,0 +1,69 @@
+version: 1
+name: npm CLI
+description: 'Official npm CLI latest documentation: package installation, reproducible npm ci, package
+  scripts, publishing, audit, package.json, lockfiles and workspaces.'
+entries:
+- id: install-packages
+  name: Install packages
+  kind: doc
+  path: docs/lib/content/commands/npm-install.md
+  repo:
+    url: https://github.com/npm/cli.git
+    branch: latest
+    submodules: false
+- id: reproducible-installation
+  name: Reproducible installation
+  kind: doc
+  path: docs/lib/content/commands/npm-ci.md
+  repo:
+    url: https://github.com/npm/cli.git
+    branch: latest
+    submodules: false
+- id: package-scripts
+  name: Package scripts
+  kind: doc
+  path: docs/lib/content/commands/npm-run.md
+  repo:
+    url: https://github.com/npm/cli.git
+    branch: latest
+    submodules: false
+- id: publish-packages
+  name: Publish packages
+  kind: doc
+  path: docs/lib/content/commands/npm-publish.md
+  repo:
+    url: https://github.com/npm/cli.git
+    branch: latest
+    submodules: false
+- id: dependency-audit
+  name: Dependency audit
+  kind: doc
+  path: docs/lib/content/commands/npm-audit.md
+  repo:
+    url: https://github.com/npm/cli.git
+    branch: latest
+    submodules: false
+- id: package-metadata
+  name: Package metadata
+  kind: doc
+  path: docs/lib/content/configuring-npm/package-json.md
+  repo:
+    url: https://github.com/npm/cli.git
+    branch: latest
+    submodules: false
+- id: lockfiles
+  name: Lockfiles
+  kind: doc
+  path: docs/lib/content/configuring-npm/package-lock-json.md
+  repo:
+    url: https://github.com/npm/cli.git
+    branch: latest
+    submodules: false
+- id: workspaces
+  name: Workspaces
+  kind: doc
+  path: docs/lib/content/using-npm/workspaces.md
+  repo:
+    url: https://github.com/npm/cli.git
+    branch: latest
+    submodules: false

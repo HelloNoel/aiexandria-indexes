@@ -1,0 +1,69 @@
+version: 1
+name: Kubernetes
+description: 'Official rolling Kubernetes documentation: Pods, Deployments, StatefulSets, Services, ConfigMaps,
+  Secrets, PersistentVolumes and RBAC authorization. Match feature availability to your cluster version.'
+entries:
+- id: pods
+  name: Pods
+  kind: doc
+  path: content/en/docs/concepts/workloads/pods/_index.md
+  repo:
+    url: https://github.com/kubernetes/website.git
+    branch: main
+    submodules: false
+- id: deployments
+  name: Deployments
+  kind: doc
+  path: content/en/docs/concepts/workloads/controllers/deployment.md
+  repo:
+    url: https://github.com/kubernetes/website.git
+    branch: main
+    submodules: false
+- id: statefulsets
+  name: StatefulSets
+  kind: doc
+  path: content/en/docs/concepts/workloads/controllers/statefulset.md
+  repo:
+    url: https://github.com/kubernetes/website.git
+    branch: main
+    submodules: false
+- id: services
+  name: Services
+  kind: doc
+  path: content/en/docs/concepts/services-networking/service.md
+  repo:
+    url: https://github.com/kubernetes/website.git
+    branch: main
+    submodules: false
+- id: configmaps
+  name: ConfigMaps
+  kind: doc
+  path: content/en/docs/concepts/configuration/configmap.md
+  repo:
+    url: https://github.com/kubernetes/website.git
+    branch: main
+    submodules: false
+- id: secrets
+  name: Secrets
+  kind: doc
+  path: content/en/docs/concepts/configuration/secret.md
+  repo:
+    url: https://github.com/kubernetes/website.git
+    branch: main
+    submodules: false
+- id: persistent-volumes
+  name: Persistent volumes
+  kind: doc
+  path: content/en/docs/concepts/storage/persistent-volumes.md
+  repo:
+    url: https://github.com/kubernetes/website.git
+    branch: main
+    submodules: false
+- id: rbac-authorization
+  name: RBAC authorization
+  kind: doc
+  path: content/en/docs/reference/access-authn-authz/rbac.md
+  repo:
+    url: https://github.com/kubernetes/website.git
+    branch: main
+    submodules: false

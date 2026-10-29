@@ -1,0 +1,40 @@
+version: 1
+name: Development workflow
+description: Version control, testing, packaging and continuous integration.
+entries:
+- id: git
+  name: Git reference
+  kind: index
+  path: indexes/git.yaml
+  description: 'Official rolling Git command reference: commits, branches, merges, rebases, stashing,
+    restoring files, configuration and remotes. Check installed Git versions for newer options.'
+- id: github-actions
+  name: GitHub Actions
+  kind: index
+  path: indexes/github-actions.yaml
+  description: 'Official rolling GitHub Actions documentation: CI workflow syntax, events, runners, variables,
+    secrets, artifacts and caching. Source includes template directives.'
+- id: npm
+  name: npm CLI
+  kind: index
+  path: indexes/npm.yaml
+  description: 'Official npm CLI latest documentation: package installation, reproducible npm ci, package
+    scripts, publishing, audit, package.json, lockfiles and workspaces.'
+- id: pytest
+  name: pytest
+  kind: index
+  path: indexes/pytest.yaml
+  description: 'Official rolling pytest documentation: assertions, fixtures, parametrization, monkeypatching,
+    captured output, skip and xfail, test layout and imports.'
+- id: python-packaging
+  name: Python packaging
+  kind: index
+  path: indexes/python-packaging.yaml
+  description: 'Python Packaging Authority rolling user guide: pip, virtual environments, pyproject.toml,
+    build backends, package distribution, namespace packages, plugins and dependency specifiers.'
+- id: uv
+  name: uv
+  kind: index
+  path: indexes/uv.yaml
+  description: 'Official rolling uv documentation: Python installation, projects, tools, scripts, dependencies,
+    workspaces, environment synchronization and GitHub Actions integration.'

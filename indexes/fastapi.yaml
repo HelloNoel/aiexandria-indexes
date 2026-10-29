@@ -1,0 +1,69 @@
+version: 1
+name: FastAPI
+description: 'Official rolling FastAPI tutorial: path and query parameters, request bodies, dependency
+  injection, OAuth2 JWT authentication, testing and SQL databases.'
+entries:
+- id: first-api
+  name: First API
+  kind: doc
+  path: docs/en/docs/tutorial/first-steps.md
+  repo:
+    url: https://github.com/fastapi/fastapi.git
+    branch: master
+    submodules: false
+- id: path-parameters
+  name: Path parameters
+  kind: doc
+  path: docs/en/docs/tutorial/path-params.md
+  repo:
+    url: https://github.com/fastapi/fastapi.git
+    branch: master
+    submodules: false
+- id: query-parameters
+  name: Query parameters
+  kind: doc
+  path: docs/en/docs/tutorial/query-params.md
+  repo:
+    url: https://github.com/fastapi/fastapi.git
+    branch: master
+    submodules: false
+- id: request-bodies
+  name: Request bodies
+  kind: doc
+  path: docs/en/docs/tutorial/body.md
+  repo:
+    url: https://github.com/fastapi/fastapi.git
+    branch: master
+    submodules: false
+- id: dependency-injection
+  name: Dependency injection
+  kind: doc
+  path: docs/en/docs/tutorial/dependencies/index.md
+  repo:
+    url: https://github.com/fastapi/fastapi.git
+    branch: master
+    submodules: false
+- id: oauth2-and-jwt
+  name: OAuth2 and JWT
+  kind: doc
+  path: docs/en/docs/tutorial/security/oauth2-jwt.md
+  repo:
+    url: https://github.com/fastapi/fastapi.git
+    branch: master
+    submodules: false
+- id: testing
+  name: Testing
+  kind: doc
+  path: docs/en/docs/tutorial/testing.md
+  repo:
+    url: https://github.com/fastapi/fastapi.git
+    branch: master
+    submodules: false
+- id: sql-databases
+  name: SQL databases
+  kind: doc
+  path: docs/en/docs/tutorial/sql-databases.md
+  repo:
+    url: https://github.com/fastapi/fastapi.git
+    branch: master
+    submodules: false

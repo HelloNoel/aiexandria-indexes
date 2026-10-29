@@ -1,0 +1,25 @@
+version: 1
+name: Public documentation
+description: A curated English-language starter collection. Discover a topic, search its selected pages,
+  then read the relevant evidence. Coverage is intentionally limited; check each source version.
+entries:
+- id: languages
+  name: Languages and runtimes
+  kind: index
+  path: indexes/languages.yaml
+  description: Language tutorials and runtime API references.
+- id: web
+  name: Web frameworks
+  kind: index
+  path: indexes/web.yaml
+  description: Application and API framework guides.
+- id: workflow
+  name: Development workflow
+  kind: index
+  path: indexes/workflow.yaml
+  description: Version control, testing, packaging and continuous integration.
+- id: infrastructure
+  name: Infrastructure and data
+  kind: index
+  path: indexes/infrastructure.yaml
+  description: Containers, orchestration and databases.

@@ -1,0 +1,69 @@
+version: 1
+name: Go tutorials
+description: 'Official rolling Go tutorials: modules, tests, generics, multi-module workspaces, SQL databases,
+  Gin web services and vulnerability checks with govulncheck.'
+entries:
+- id: getting-started
+  name: Getting started
+  kind: doc
+  path: _content/doc/tutorial/getting-started.html
+  repo:
+    url: https://github.com/golang/website.git
+    branch: master
+    submodules: false
+- id: create-a-module
+  name: Create a module
+  kind: doc
+  path: _content/doc/tutorial/create-module.html
+  repo:
+    url: https://github.com/golang/website.git
+    branch: master
+    submodules: false
+- id: unit-tests
+  name: Unit tests
+  kind: doc
+  path: _content/doc/tutorial/add-a-test.html
+  repo:
+    url: https://github.com/golang/website.git
+    branch: master
+    submodules: false
+- id: generics
+  name: Generics
+  kind: doc
+  path: _content/doc/tutorial/generics.md
+  repo:
+    url: https://github.com/golang/website.git
+    branch: master
+    submodules: false
+- id: multi-module-workspaces
+  name: Multi-module workspaces
+  kind: doc
+  path: _content/doc/tutorial/workspaces.md
+  repo:
+    url: https://github.com/golang/website.git
+    branch: master
+    submodules: false
+- id: sql-database-access
+  name: SQL database access
+  kind: doc
+  path: _content/doc/tutorial/database-access.md
+  repo:
+    url: https://github.com/golang/website.git
+    branch: master
+    submodules: false
+- id: web-services-with-gin
+  name: Web services with Gin
+  kind: doc
+  path: _content/doc/tutorial/web-service-gin.md
+  repo:
+    url: https://github.com/golang/website.git
+    branch: master
+    submodules: false
+- id: vulnerability-checks
+  name: Vulnerability checks
+  kind: doc
+  path: _content/doc/tutorial/govulncheck.md
+  repo:
+    url: https://github.com/golang/website.git
+    branch: master
+    submodules: false

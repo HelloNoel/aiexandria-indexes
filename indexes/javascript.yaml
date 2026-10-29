@@ -1,0 +1,69 @@
+version: 1
+name: JavaScript tutorial
+description: 'Community-maintained JavaScript.info tutorial, rolling edition: JavaScript syntax, values,
+  objects, closures, async/await and ES modules. Educational guidance rather than a language standard.'
+entries:
+- id: hello-world
+  name: Hello world
+  kind: doc
+  path: 1-js/02-first-steps/01-hello-world/article.md
+  repo:
+    url: https://github.com/javascript-tutorial/en.javascript.info.git
+    branch: master
+    submodules: false
+- id: variables
+  name: Variables
+  kind: doc
+  path: 1-js/02-first-steps/04-variables/article.md
+  repo:
+    url: https://github.com/javascript-tutorial/en.javascript.info.git
+    branch: master
+    submodules: false
+- id: data-types
+  name: Data types
+  kind: doc
+  path: 1-js/02-first-steps/05-types/article.md
+  repo:
+    url: https://github.com/javascript-tutorial/en.javascript.info.git
+    branch: master
+    submodules: false
+- id: functions
+  name: Functions
+  kind: doc
+  path: 1-js/02-first-steps/15-function-basics/article.md
+  repo:
+    url: https://github.com/javascript-tutorial/en.javascript.info.git
+    branch: master
+    submodules: false
+- id: objects
+  name: Objects
+  kind: doc
+  path: 1-js/04-object-basics/01-object/article.md
+  repo:
+    url: https://github.com/javascript-tutorial/en.javascript.info.git
+    branch: master
+    submodules: false
+- id: closures-and-lexical-scope
+  name: Closures and lexical scope
+  kind: doc
+  path: 1-js/06-advanced-functions/03-closure/article.md
+  repo:
+    url: https://github.com/javascript-tutorial/en.javascript.info.git
+    branch: master
+    submodules: false
+- id: async-await-and-promises
+  name: Async await and promises
+  kind: doc
+  path: 1-js/11-async/08-async-await/article.md
+  repo:
+    url: https://github.com/javascript-tutorial/en.javascript.info.git
+    branch: master
+    submodules: false
+- id: es-modules
+  name: ES modules
+  kind: doc
+  path: 1-js/13-modules/01-modules-intro/article.md
+  repo:
+    url: https://github.com/javascript-tutorial/en.javascript.info.git
+    branch: master
+    submodules: false

@@ -1,0 +1,69 @@
+version: 1
+name: Rust book
+description: 'Official rolling Rust book: ownership, borrowing, references, slices, pattern matching,
+  Result error handling, traits and lifetimes.'
+entries:
+- id: ownership
+  name: Ownership
+  kind: doc
+  path: src/ch04-01-what-is-ownership.md
+  repo:
+    url: https://github.com/rust-lang/book.git
+    branch: main
+    submodules: false
+- id: references-and-borrowing
+  name: References and borrowing
+  kind: doc
+  path: src/ch04-02-references-and-borrowing.md
+  repo:
+    url: https://github.com/rust-lang/book.git
+    branch: main
+    submodules: false
+- id: slices
+  name: Slices
+  kind: doc
+  path: src/ch04-03-slices.md
+  repo:
+    url: https://github.com/rust-lang/book.git
+    branch: main
+    submodules: false
+- id: match-patterns
+  name: Match patterns
+  kind: doc
+  path: src/ch06-02-match.md
+  repo:
+    url: https://github.com/rust-lang/book.git
+    branch: main
+    submodules: false
+- id: result-and-recoverable-errors
+  name: Result and recoverable errors
+  kind: doc
+  path: src/ch09-02-recoverable-errors-with-result.md
+  repo:
+    url: https://github.com/rust-lang/book.git
+    branch: main
+    submodules: false
+- id: traits
+  name: Traits
+  kind: doc
+  path: src/ch10-02-traits.md
+  repo:
+    url: https://github.com/rust-lang/book.git
+    branch: main
+    submodules: false
+- id: lifetimes
+  name: Lifetimes
+  kind: doc
+  path: src/ch10-03-lifetime-syntax.md
+  repo:
+    url: https://github.com/rust-lang/book.git
+    branch: main
+    submodules: false
+- id: writing-tests
+  name: Writing tests
+  kind: doc
+  path: src/ch11-01-writing-tests.md
+  repo:
+    url: https://github.com/rust-lang/book.git
+    branch: main
+    submodules: false

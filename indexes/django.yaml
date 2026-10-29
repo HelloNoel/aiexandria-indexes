@@ -1,0 +1,69 @@
+version: 1
+name: Django 5.2 LTS
+description: 'Official Django 5.2 LTS documentation: first application, ORM models and queries, HTTP views,
+  authentication, tests and deployment checklist.'
+entries:
+- id: first-django-app
+  name: First Django app
+  kind: doc
+  path: docs/intro/tutorial01.txt
+  repo:
+    url: https://github.com/django/django.git
+    branch: stable/5.2.x
+    submodules: false
+- id: database-and-admin-tutorial
+  name: Database and admin tutorial
+  kind: doc
+  path: docs/intro/tutorial02.txt
+  repo:
+    url: https://github.com/django/django.git
+    branch: stable/5.2.x
+    submodules: false
+- id: orm-models
+  name: ORM models
+  kind: doc
+  path: docs/topics/db/models.txt
+  repo:
+    url: https://github.com/django/django.git
+    branch: stable/5.2.x
+    submodules: false
+- id: orm-queries
+  name: ORM queries
+  kind: doc
+  path: docs/topics/db/queries.txt
+  repo:
+    url: https://github.com/django/django.git
+    branch: stable/5.2.x
+    submodules: false
+- id: http-views
+  name: HTTP views
+  kind: doc
+  path: docs/topics/http/views.txt
+  repo:
+    url: https://github.com/django/django.git
+    branch: stable/5.2.x
+    submodules: false
+- id: authentication-and-permissions
+  name: Authentication and permissions
+  kind: doc
+  path: docs/topics/auth/default.txt
+  repo:
+    url: https://github.com/django/django.git
+    branch: stable/5.2.x
+    submodules: false
+- id: testing
+  name: Testing
+  kind: doc
+  path: docs/topics/testing/overview.txt
+  repo:
+    url: https://github.com/django/django.git
+    branch: stable/5.2.x
+    submodules: false
+- id: deployment-checklist
+  name: Deployment checklist
+  kind: doc
+  path: docs/howto/deployment/checklist.txt
+  repo:
+    url: https://github.com/django/django.git
+    branch: stable/5.2.x
+    submodules: false

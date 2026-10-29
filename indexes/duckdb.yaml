@@ -1,0 +1,70 @@
+version: 1
+name: DuckDB 1.4
+description: 'Official DuckDB 1.4 documentation: embedded analytical SQL, SELECT filtering, tables, COPY,
+  CSV and Parquet files, Python installation and client API. This source targets 1.4 rather than all DuckDB
+  versions.'
+entries:
+- id: sql-introduction
+  name: SQL introduction
+  kind: doc
+  path: docs/1.4/sql/introduction.md
+  repo:
+    url: https://github.com/duckdb/duckdb-web.git
+    branch: main
+    submodules: false
+- id: select-queries
+  name: SELECT queries
+  kind: doc
+  path: docs/1.4/sql/statements/select.md
+  repo:
+    url: https://github.com/duckdb/duckdb-web.git
+    branch: main
+    submodules: false
+- id: create-tables
+  name: Create tables
+  kind: doc
+  path: docs/1.4/sql/statements/create_table.md
+  repo:
+    url: https://github.com/duckdb/duckdb-web.git
+    branch: main
+    submodules: false
+- id: copy-import-and-export
+  name: COPY import and export
+  kind: doc
+  path: docs/1.4/sql/statements/copy.md
+  repo:
+    url: https://github.com/duckdb/duckdb-web.git
+    branch: main
+    submodules: false
+- id: csv-files
+  name: CSV files
+  kind: doc
+  path: docs/1.4/data/csv/overview.md
+  repo:
+    url: https://github.com/duckdb/duckdb-web.git
+    branch: main
+    submodules: false
+- id: parquet-files
+  name: Parquet files
+  kind: doc
+  path: docs/1.4/data/parquet/overview.md
+  repo:
+    url: https://github.com/duckdb/duckdb-web.git
+    branch: main
+    submodules: false
+- id: python-client
+  name: Python client
+  kind: doc
+  path: docs/1.4/clients/python/overview.md
+  repo:
+    url: https://github.com/duckdb/duckdb-web.git
+    branch: main
+    submodules: false
+- id: python-installation
+  name: Python installation
+  kind: doc
+  path: docs/1.4/guides/python/install.md
+  repo:
+    url: https://github.com/duckdb/duckdb-web.git
+    branch: main
+    submodules: false

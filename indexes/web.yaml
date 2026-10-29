@@ -1,0 +1,29 @@
+version: 1
+name: Web frameworks
+description: Application and API framework guides.
+entries:
+- id: react
+  name: React
+  kind: index
+  path: indexes/react.yaml
+  description: 'Official rolling React documentation: hooks, state, effects, memoization, context, lazy
+    loading, Suspense and component rendering.'
+- id: vue
+  name: Vue 3
+  kind: index
+  path: indexes/vue.yaml
+  description: 'Official rolling Vue 3 guide: getting started, reactivity, computed properties, conditional
+    and list rendering, components, state management. Source text can show both Options and Composition
+    APIs.'
+- id: django
+  name: Django 5.2 LTS
+  kind: index
+  path: indexes/django.yaml
+  description: 'Official Django 5.2 LTS documentation: first application, ORM models and queries, HTTP
+    views, authentication, tests and deployment checklist.'
+- id: fastapi
+  name: FastAPI
+  kind: index
+  path: indexes/fastapi.yaml
+  description: 'Official rolling FastAPI tutorial: path and query parameters, request bodies, dependency
+    injection, OAuth2 JWT authentication, testing and SQL databases.'

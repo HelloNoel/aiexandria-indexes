@@ -1,0 +1,30 @@
+version: 1
+name: Infrastructure and data
+description: Containers, orchestration and databases.
+entries:
+- id: docker
+  name: Docker
+  kind: index
+  path: indexes/docker.yaml
+  description: 'Official rolling Docker documentation: containers, images, building and publishing images,
+    Compose applications, networking, volumes and engine networking.'
+- id: kubernetes
+  name: Kubernetes
+  kind: index
+  path: indexes/kubernetes.yaml
+  description: 'Official rolling Kubernetes documentation: Pods, Deployments, StatefulSets, Services,
+    ConfigMaps, Secrets, PersistentVolumes and RBAC authorization. Match feature availability to your
+    cluster version.'
+- id: redis
+  name: Redis
+  kind: index
+  path: indexes/redis.yaml
+  description: 'Official rolling Redis documentation: strings, hashes, lists, sets, sorted sets, streams,
+    Python client and replication. Distinguish Redis Open Source from hosted-product features.'
+- id: duckdb
+  name: DuckDB 1.4
+  kind: index
+  path: indexes/duckdb.yaml
+  description: 'Official DuckDB 1.4 documentation: embedded analytical SQL, SELECT filtering, tables,
+    COPY, CSV and Parquet files, Python installation and client API. This source targets 1.4 rather than
+    all DuckDB versions.'

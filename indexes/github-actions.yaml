@@ -1,0 +1,69 @@
+version: 1
+name: GitHub Actions
+description: 'Official rolling GitHub Actions documentation: CI workflow syntax, events, runners, variables,
+  secrets, artifacts and caching. Source includes template directives.'
+entries:
+- id: quick-start
+  name: Quick start
+  kind: doc
+  path: content/actions/get-started/quickstart.md
+  repo:
+    url: https://github.com/github/docs.git
+    branch: main
+    submodules: false
+- id: workflow-concepts
+  name: Workflow concepts
+  kind: doc
+  path: content/actions/get-started/understand-github-actions.md
+  repo:
+    url: https://github.com/github/docs.git
+    branch: main
+    submodules: false
+- id: workflow-syntax
+  name: Workflow syntax
+  kind: doc
+  path: content/actions/reference/workflows-and-actions/workflow-syntax.md
+  repo:
+    url: https://github.com/github/docs.git
+    branch: main
+    submodules: false
+- id: workflow-triggers
+  name: Workflow triggers
+  kind: doc
+  path: content/actions/reference/workflows-and-actions/events-that-trigger-workflows.md
+  repo:
+    url: https://github.com/github/docs.git
+    branch: main
+    submodules: false
+- id: variables
+  name: Variables
+  kind: doc
+  path: content/actions/how-tos/write-workflows/choose-what-workflows-do/use-variables.md
+  repo:
+    url: https://github.com/github/docs.git
+    branch: main
+    submodules: false
+- id: secrets
+  name: Secrets
+  kind: doc
+  path: content/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets.md
+  repo:
+    url: https://github.com/github/docs.git
+    branch: main
+    submodules: false
+- id: artifacts
+  name: Artifacts
+  kind: doc
+  path: content/actions/how-tos/manage-workflow-runs/download-workflow-artifacts.md
+  repo:
+    url: https://github.com/github/docs.git
+    branch: main
+    submodules: false
+- id: dependency-caching
+  name: Dependency caching
+  kind: doc
+  path: content/actions/reference/workflows-and-actions/dependency-caching.md
+  repo:
+    url: https://github.com/github/docs.git
+    branch: main
+    submodules: false

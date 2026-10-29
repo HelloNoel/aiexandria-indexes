@@ -1,0 +1,69 @@
+version: 1
+name: TypeScript handbook
+description: 'Official rolling TypeScript handbook: types, narrowing, functions, interfaces and object
+  types, classes, modules, generics and keyof.'
+entries:
+- id: everyday-types
+  name: Everyday types
+  kind: doc
+  path: packages/documentation/copy/en/handbook-v2/Everyday Types.md
+  repo:
+    url: https://github.com/microsoft/TypeScript-Website.git
+    branch: v2
+    submodules: false
+- id: narrowing-and-type-guards
+  name: Narrowing and type guards
+  kind: doc
+  path: packages/documentation/copy/en/handbook-v2/Narrowing.md
+  repo:
+    url: https://github.com/microsoft/TypeScript-Website.git
+    branch: v2
+    submodules: false
+- id: function-types-and-overloads
+  name: Function types and overloads
+  kind: doc
+  path: packages/documentation/copy/en/handbook-v2/More on Functions.md
+  repo:
+    url: https://github.com/microsoft/TypeScript-Website.git
+    branch: v2
+    submodules: false
+- id: object-types-and-interfaces
+  name: Object types and interfaces
+  kind: doc
+  path: packages/documentation/copy/en/handbook-v2/Object Types.md
+  repo:
+    url: https://github.com/microsoft/TypeScript-Website.git
+    branch: v2
+    submodules: false
+- id: classes
+  name: Classes
+  kind: doc
+  path: packages/documentation/copy/en/handbook-v2/Classes.md
+  repo:
+    url: https://github.com/microsoft/TypeScript-Website.git
+    branch: v2
+    submodules: false
+- id: modules
+  name: Modules
+  kind: doc
+  path: packages/documentation/copy/en/handbook-v2/Modules.md
+  repo:
+    url: https://github.com/microsoft/TypeScript-Website.git
+    branch: v2
+    submodules: false
+- id: generics
+  name: Generics
+  kind: doc
+  path: packages/documentation/copy/en/handbook-v2/Type Manipulation/Generics.md
+  repo:
+    url: https://github.com/microsoft/TypeScript-Website.git
+    branch: v2
+    submodules: false
+- id: keyof-type-operator
+  name: Keyof type operator
+  kind: doc
+  path: packages/documentation/copy/en/handbook-v2/Type Manipulation/Keyof Type Operator.md
+  repo:
+    url: https://github.com/microsoft/TypeScript-Website.git
+    branch: v2
+    submodules: false

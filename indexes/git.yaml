@@ -1,0 +1,69 @@
+version: 1
+name: Git reference
+description: 'Official rolling Git command reference: commits, branches, merges, rebases, stashing, restoring
+  files, configuration and remotes. Check installed Git versions for newer options.'
+entries:
+- id: commits
+  name: Commits
+  kind: doc
+  path: Documentation/git-commit.adoc
+  repo:
+    url: https://github.com/git/git.git
+    branch: master
+    submodules: false
+- id: branches
+  name: Branches
+  kind: doc
+  path: Documentation/git-branch.adoc
+  repo:
+    url: https://github.com/git/git.git
+    branch: master
+    submodules: false
+- id: merging
+  name: Merging
+  kind: doc
+  path: Documentation/git-merge.adoc
+  repo:
+    url: https://github.com/git/git.git
+    branch: master
+    submodules: false
+- id: rebasing
+  name: Rebasing
+  kind: doc
+  path: Documentation/git-rebase.adoc
+  repo:
+    url: https://github.com/git/git.git
+    branch: master
+    submodules: false
+- id: stashing
+  name: Stashing
+  kind: doc
+  path: Documentation/git-stash.adoc
+  repo:
+    url: https://github.com/git/git.git
+    branch: master
+    submodules: false
+- id: restoring-files
+  name: Restoring files
+  kind: doc
+  path: Documentation/git-restore.adoc
+  repo:
+    url: https://github.com/git/git.git
+    branch: master
+    submodules: false
+- id: configuration
+  name: Configuration
+  kind: doc
+  path: Documentation/git-config.adoc
+  repo:
+    url: https://github.com/git/git.git
+    branch: master
+    submodules: false
+- id: remotes
+  name: Remotes
+  kind: doc
+  path: Documentation/git-remote.adoc
+  repo:
+    url: https://github.com/git/git.git
+    branch: master
+    submodules: false

@@ -1,0 +1,40 @@
+version: 1
+name: Languages and runtimes
+description: Language tutorials and runtime API references.
+entries:
+- id: python
+  name: Python 3.14
+  kind: index
+  path: indexes/python.yaml
+  description: 'Python 3.14 tutorial and standard library: control flow, containers, modules, exceptions,
+    classes, virtual environments, asyncio tasks and coroutines.'
+- id: javascript
+  name: JavaScript tutorial
+  kind: index
+  path: indexes/javascript.yaml
+  description: 'Community-maintained JavaScript.info tutorial, rolling edition: JavaScript syntax, values,
+    objects, closures, async/await and ES modules. Educational guidance rather than a language standard.'
+- id: typescript
+  name: TypeScript handbook
+  kind: index
+  path: indexes/typescript.yaml
+  description: 'Official rolling TypeScript handbook: types, narrowing, functions, interfaces and object
+    types, classes, modules, generics and keyof.'
+- id: go
+  name: Go tutorials
+  kind: index
+  path: indexes/go.yaml
+  description: 'Official rolling Go tutorials: modules, tests, generics, multi-module workspaces, SQL
+    databases, Gin web services and vulnerability checks with govulncheck.'
+- id: rust
+  name: Rust book
+  kind: index
+  path: indexes/rust.yaml
+  description: 'Official rolling Rust book: ownership, borrowing, references, slices, pattern matching,
+    Result error handling, traits and lifetimes.'
+- id: nodejs
+  name: Node.js 24
+  kind: index
+  path: indexes/nodejs.yaml
+  description: 'Node.js 24 maintained release documentation: filesystem, paths, processes, CommonJS and
+    ES modules, streams, built-in test runner, AsyncLocalStorage.'

@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+.local/
+/.local/
+/.venv/
+/.claude/
+/.playwright-mcp/
+.DS_Store

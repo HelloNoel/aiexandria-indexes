@@ -1,0 +1,69 @@
+version: 1
+name: Redis
+description: 'Official rolling Redis documentation: strings, hashes, lists, sets, sorted sets, streams,
+  Python client and replication. Distinguish Redis Open Source from hosted-product features.'
+entries:
+- id: strings
+  name: Strings
+  kind: doc
+  path: content/develop/data-types/strings/_index.md
+  repo:
+    url: https://github.com/redis/docs.git
+    branch: main
+    submodules: false
+- id: hashes
+  name: Hashes
+  kind: doc
+  path: content/develop/data-types/hashes.md
+  repo:
+    url: https://github.com/redis/docs.git
+    branch: main
+    submodules: false
+- id: lists
+  name: Lists
+  kind: doc
+  path: content/develop/data-types/lists.md
+  repo:
+    url: https://github.com/redis/docs.git
+    branch: main
+    submodules: false
+- id: sets
+  name: Sets
+  kind: doc
+  path: content/develop/data-types/sets.md
+  repo:
+    url: https://github.com/redis/docs.git
+    branch: main
+    submodules: false
+- id: sorted-sets
+  name: Sorted sets
+  kind: doc
+  path: content/develop/data-types/sorted-sets.md
+  repo:
+    url: https://github.com/redis/docs.git
+    branch: main
+    submodules: false
+- id: streams
+  name: Streams
+  kind: doc
+  path: content/develop/data-types/streams/_index.md
+  repo:
+    url: https://github.com/redis/docs.git
+    branch: main
+    submodules: false
+- id: python-client
+  name: Python client
+  kind: doc
+  path: content/develop/clients/redis-py/_index.md
+  repo:
+    url: https://github.com/redis/docs.git
+    branch: main
+    submodules: false
+- id: replication
+  name: Replication
+  kind: doc
+  path: content/operate/oss_and_stack/management/replication.md
+  repo:
+    url: https://github.com/redis/docs.git
+    branch: main
+    submodules: false

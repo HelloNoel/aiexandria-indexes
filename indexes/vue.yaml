@@ -1,0 +1,70 @@
+version: 1
+name: Vue 3
+description: 'Official rolling Vue 3 guide: getting started, reactivity, computed properties, conditional
+  and list rendering, components, state management. Source text can show both Options and Composition
+  APIs.'
+entries:
+- id: introduction
+  name: Introduction
+  kind: doc
+  path: src/guide/introduction.md
+  repo:
+    url: https://github.com/vuejs/docs.git
+    branch: main
+    submodules: false
+- id: quick-start
+  name: Quick start
+  kind: doc
+  path: src/guide/quick-start.md
+  repo:
+    url: https://github.com/vuejs/docs.git
+    branch: main
+    submodules: false
+- id: reactivity
+  name: Reactivity
+  kind: doc
+  path: src/guide/essentials/reactivity-fundamentals.md
+  repo:
+    url: https://github.com/vuejs/docs.git
+    branch: main
+    submodules: false
+- id: computed-properties
+  name: Computed properties
+  kind: doc
+  path: src/guide/essentials/computed.md
+  repo:
+    url: https://github.com/vuejs/docs.git
+    branch: main
+    submodules: false
+- id: conditional-rendering
+  name: Conditional rendering
+  kind: doc
+  path: src/guide/essentials/conditional.md
+  repo:
+    url: https://github.com/vuejs/docs.git
+    branch: main
+    submodules: false
+- id: list-rendering
+  name: List rendering
+  kind: doc
+  path: src/guide/essentials/list.md
+  repo:
+    url: https://github.com/vuejs/docs.git
+    branch: main
+    submodules: false
+- id: components
+  name: Components
+  kind: doc
+  path: src/guide/essentials/component-basics.md
+  repo:
+    url: https://github.com/vuejs/docs.git
+    branch: main
+    submodules: false
+- id: state-management
+  name: State management
+  kind: doc
+  path: src/guide/scaling-up/state-management.md
+  repo:
+    url: https://github.com/vuejs/docs.git
+    branch: main
+    submodules: false

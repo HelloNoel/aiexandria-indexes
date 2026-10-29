@@ -1,0 +1,322 @@
+[
+  {
+    "query": "Python asyncio",
+    "expected": "python"
+  },
+  {
+    "query": "Python virtual environments",
+    "expected": "python"
+  },
+  {
+    "query": "coroutines tasks",
+    "expected": "python"
+  },
+  {
+    "query": "Python dictionaries comprehensions",
+    "expected": "python"
+  },
+  {
+    "query": "JavaScript closures",
+    "expected": "javascript"
+  },
+  {
+    "query": "JavaScript promises async await",
+    "expected": "javascript"
+  },
+  {
+    "query": "lexical scope",
+    "expected": "javascript"
+  },
+  {
+    "query": "JavaScript ES modules",
+    "expected": "javascript"
+  },
+  {
+    "query": "TypeScript generics",
+    "expected": "typescript"
+  },
+  {
+    "query": "TypeScript type narrowing",
+    "expected": "typescript"
+  },
+  {
+    "query": "keyof type operator",
+    "expected": "typescript"
+  },
+  {
+    "query": "TypeScript object types",
+    "expected": "typescript"
+  },
+  {
+    "query": "Go modules tutorial",
+    "expected": "go"
+  },
+  {
+    "query": "Go SQL database",
+    "expected": "go"
+  },
+  {
+    "query": "Go workspace modules",
+    "expected": "go"
+  },
+  {
+    "query": "Go vulnerability checking",
+    "expected": "go"
+  },
+  {
+    "query": "Rust ownership",
+    "expected": "rust"
+  },
+  {
+    "query": "Rust borrow lifetimes",
+    "expected": "rust"
+  },
+  {
+    "query": "Rust Result error handling",
+    "expected": "rust"
+  },
+  {
+    "query": "Rust traits",
+    "expected": "rust"
+  },
+  {
+    "query": "Node.js streams",
+    "expected": "nodejs"
+  },
+  {
+    "query": "Node 24 filesystem",
+    "expected": "nodejs"
+  },
+  {
+    "query": "AsyncLocalStorage",
+    "expected": "nodejs"
+  },
+  {
+    "query": "Node.js test runner",
+    "expected": "nodejs"
+  },
+  {
+    "query": "React useEffect cleanup",
+    "expected": "react"
+  },
+  {
+    "query": "React useState",
+    "expected": "react"
+  },
+  {
+    "query": "React Suspense lazy",
+    "expected": "react"
+  },
+  {
+    "query": "React sharing component state",
+    "expected": "react"
+  },
+  {
+    "query": "Vue computed properties",
+    "expected": "vue"
+  },
+  {
+    "query": "Vue reactivity",
+    "expected": "vue"
+  },
+  {
+    "query": "Vue state management",
+    "expected": "vue"
+  },
+  {
+    "query": "Vue conditional rendering",
+    "expected": "vue"
+  },
+  {
+    "query": "Django QuerySets",
+    "expected": "django"
+  },
+  {
+    "query": "Django ORM models",
+    "expected": "django"
+  },
+  {
+    "query": "Django deployment checklist",
+    "expected": "django"
+  },
+  {
+    "query": "Django authentication",
+    "expected": "django"
+  },
+  {
+    "query": "FastAPI dependencies",
+    "expected": "fastapi"
+  },
+  {
+    "query": "FastAPI request body",
+    "expected": "fastapi"
+  },
+  {
+    "query": "FastAPI security",
+    "expected": "fastapi"
+  },
+  {
+    "query": "FastAPI response models",
+    "expected": "fastapi"
+  },
+  {
+    "query": "Git rebase",
+    "expected": "git"
+  },
+  {
+    "query": "Git branching",
+    "expected": "git"
+  },
+  {
+    "query": "Git reset",
+    "expected": "git"
+  },
+  {
+    "query": "Git commit",
+    "expected": "git"
+  },
+  {
+    "query": "GitHub Actions workflow syntax",
+    "expected": "github-actions"
+  },
+  {
+    "query": "GitHub Actions secrets",
+    "expected": "github-actions"
+  },
+  {
+    "query": "GitHub Actions matrix",
+    "expected": "github-actions"
+  },
+  {
+    "query": "GitHub Actions caching",
+    "expected": "github-actions"
+  },
+  {
+    "query": "npm package.json",
+    "expected": "npm"
+  },
+  {
+    "query": "npm scripts",
+    "expected": "npm"
+  },
+  {
+    "query": "npm dependencies",
+    "expected": "npm"
+  },
+  {
+    "query": "npm workspaces",
+    "expected": "npm"
+  },
+  {
+    "query": "pytest fixtures",
+    "expected": "pytest"
+  },
+  {
+    "query": "pytest parametrization",
+    "expected": "pytest"
+  },
+  {
+    "query": "pytest monkeypatch",
+    "expected": "pytest"
+  },
+  {
+    "query": "pytest assertions",
+    "expected": "pytest"
+  },
+  {
+    "query": "Python packaging pyproject.toml",
+    "expected": "python-packaging"
+  },
+  {
+    "query": "Python package distribution",
+    "expected": "python-packaging"
+  },
+  {
+    "query": "Python dependency specifiers",
+    "expected": "python-packaging"
+  },
+  {
+    "query": "Python packaging plugins",
+    "expected": "python-packaging"
+  },
+  {
+    "query": "uv lock sync",
+    "expected": "uv"
+  },
+  {
+    "query": "uv workspaces",
+    "expected": "uv"
+  },
+  {
+    "query": "uv Python installation",
+    "expected": "uv"
+  },
+  {
+    "query": "uv scripts",
+    "expected": "uv"
+  },
+  {
+    "query": "Docker volumes",
+    "expected": "docker"
+  },
+  {
+    "query": "Docker Compose networking",
+    "expected": "docker"
+  },
+  {
+    "query": "Docker build image",
+    "expected": "docker"
+  },
+  {
+    "query": "Docker containers",
+    "expected": "docker"
+  },
+  {
+    "query": "Kubernetes deployments",
+    "expected": "kubernetes"
+  },
+  {
+    "query": "Kubernetes RBAC",
+    "expected": "kubernetes"
+  },
+  {
+    "query": "Kubernetes PersistentVolumes",
+    "expected": "kubernetes"
+  },
+  {
+    "query": "Kubernetes ConfigMaps",
+    "expected": "kubernetes"
+  },
+  {
+    "query": "Redis sorted sets",
+    "expected": "redis"
+  },
+  {
+    "query": "Redis streams",
+    "expected": "redis"
+  },
+  {
+    "query": "Redis replication",
+    "expected": "redis"
+  },
+  {
+    "query": "redis-py client",
+    "expected": "redis"
+  },
+  {
+    "query": "DuckDB Parquet",
+    "expected": "duckdb"
+  },
+  {
+    "query": "DuckDB COPY CSV",
+    "expected": "duckdb"
+  },
+  {
+    "query": "DuckDB Python",
+    "expected": "duckdb"
+  },
+  {
+    "query": "DuckDB SELECT SQL",
+    "expected": "duckdb"
+  }
+]

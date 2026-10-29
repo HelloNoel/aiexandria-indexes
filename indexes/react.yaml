@@ -1,0 +1,69 @@
+version: 1
+name: React
+description: 'Official rolling React documentation: hooks, state, effects, memoization, context, lazy
+  loading, Suspense and component rendering.'
+entries:
+- id: state-with-usestate
+  name: State with useState
+  kind: doc
+  path: src/content/reference/react/useState.md
+  repo:
+    url: https://github.com/reactjs/react.dev.git
+    branch: main
+    submodules: false
+- id: effects-and-cleanup
+  name: Effects and cleanup
+  kind: doc
+  path: src/content/reference/react/useEffect.md
+  repo:
+    url: https://github.com/reactjs/react.dev.git
+    branch: main
+    submodules: false
+- id: memoization
+  name: Memoization
+  kind: doc
+  path: src/content/reference/react/useMemo.md
+  repo:
+    url: https://github.com/reactjs/react.dev.git
+    branch: main
+    submodules: false
+- id: context
+  name: Context
+  kind: doc
+  path: src/content/reference/react/useContext.md
+  repo:
+    url: https://github.com/reactjs/react.dev.git
+    branch: main
+    submodules: false
+- id: lazy-component-loading
+  name: Lazy component loading
+  kind: doc
+  path: src/content/reference/react/lazy.md
+  repo:
+    url: https://github.com/reactjs/react.dev.git
+    branch: main
+    submodules: false
+- id: suspense
+  name: Suspense
+  kind: doc
+  path: src/content/reference/react/Suspense.md
+  repo:
+    url: https://github.com/reactjs/react.dev.git
+    branch: main
+    submodules: false
+- id: sharing-component-state
+  name: Sharing component state
+  kind: doc
+  path: src/content/learn/sharing-state-between-components.md
+  repo:
+    url: https://github.com/reactjs/react.dev.git
+    branch: main
+    submodules: false
+- id: rendering-and-committing
+  name: Rendering and committing
+  kind: doc
+  path: src/content/learn/render-and-commit.md
+  repo:
+    url: https://github.com/reactjs/react.dev.git
+    branch: main
+    submodules: false

@@ -1,0 +1,69 @@
+version: 1
+name: Python packaging
+description: 'Python Packaging Authority rolling user guide: pip, virtual environments, pyproject.toml,
+  build backends, package distribution, namespace packages, plugins and dependency specifiers.'
+entries:
+- id: install-packages
+  name: Install packages
+  kind: doc
+  path: source/tutorials/installing-packages.rst
+  repo:
+    url: https://github.com/pypa/packaging.python.org.git
+    branch: main
+    submodules: false
+- id: build-and-publish-a-package
+  name: Build and publish a package
+  kind: doc
+  path: source/tutorials/packaging-projects.rst
+  repo:
+    url: https://github.com/pypa/packaging.python.org.git
+    branch: main
+    submodules: false
+- id: pip-and-virtual-environments
+  name: Pip and virtual environments
+  kind: doc
+  path: source/guides/installing-using-pip-and-virtual-environments.rst
+  repo:
+    url: https://github.com/pypa/packaging.python.org.git
+    branch: main
+    submodules: false
+- id: write-pyproject-toml
+  name: Write pyproject.toml
+  kind: doc
+  path: source/guides/writing-pyproject-toml.rst
+  repo:
+    url: https://github.com/pypa/packaging.python.org.git
+    branch: main
+    submodules: false
+- id: namespace-packages
+  name: Namespace packages
+  kind: doc
+  path: source/guides/packaging-namespace-packages.rst
+  repo:
+    url: https://github.com/pypa/packaging.python.org.git
+    branch: main
+    submodules: false
+- id: plugin-discovery
+  name: Plugin discovery
+  kind: doc
+  path: source/guides/creating-and-discovering-plugins.rst
+  repo:
+    url: https://github.com/pypa/packaging.python.org.git
+    branch: main
+    submodules: false
+- id: pyproject-specification
+  name: Pyproject specification
+  kind: doc
+  path: source/specifications/pyproject-toml.rst
+  repo:
+    url: https://github.com/pypa/packaging.python.org.git
+    branch: main
+    submodules: false
+- id: dependency-specifiers
+  name: Dependency specifiers
+  kind: doc
+  path: source/specifications/dependency-specifiers.rst
+  repo:
+    url: https://github.com/pypa/packaging.python.org.git
+    branch: main
+    submodules: false

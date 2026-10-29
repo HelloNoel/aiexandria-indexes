@@ -1,0 +1,69 @@
+version: 1
+name: Docker
+description: 'Official rolling Docker documentation: containers, images, building and publishing images,
+  Compose applications, networking, volumes and engine networking.'
+entries:
+- id: docker-overview
+  name: Docker overview
+  kind: doc
+  path: content/get-started/docker-overview.md
+  repo:
+    url: https://github.com/docker/docs.git
+    branch: main
+    submodules: false
+- id: build-and-push-an-image
+  name: Build and push an image
+  kind: doc
+  path: content/get-started/docker-concepts/building-images/build-tag-and-publish-an-image.md
+  repo:
+    url: https://github.com/docker/docs.git
+    branch: main
+    submodules: false
+- id: containers
+  name: Containers
+  kind: doc
+  path: content/get-started/docker-concepts/the-basics/what-is-a-container.md
+  repo:
+    url: https://github.com/docker/docs.git
+    branch: main
+    submodules: false
+- id: images
+  name: Images
+  kind: doc
+  path: content/get-started/docker-concepts/the-basics/what-is-an-image.md
+  repo:
+    url: https://github.com/docker/docs.git
+    branch: main
+    submodules: false
+- id: compose-quick-start
+  name: Compose quick start
+  kind: doc
+  path: content/manuals/compose/gettingstarted.md
+  repo:
+    url: https://github.com/docker/docs.git
+    branch: main
+    submodules: false
+- id: compose-networking
+  name: Compose networking
+  kind: doc
+  path: content/manuals/compose/how-tos/networking.md
+  repo:
+    url: https://github.com/docker/docs.git
+    branch: main
+    submodules: false
+- id: volumes
+  name: Volumes
+  kind: doc
+  path: content/manuals/engine/storage/volumes.md
+  repo:
+    url: https://github.com/docker/docs.git
+    branch: main
+    submodules: false
+- id: engine-networking
+  name: Engine networking
+  kind: doc
+  path: content/manuals/engine/network/_index.md
+  repo:
+    url: https://github.com/docker/docs.git
+    branch: main
+    submodules: false
