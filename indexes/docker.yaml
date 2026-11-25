@@ -1,36 +1,36 @@
 version: 1
 name: Docker
-description: 'Official rolling Docker documentation: containers, images, building and publishing images,
+description: 'Official rolling Docker documentation: containers, Dockerfiles, building and publishing images,
   Compose applications, networking, volumes and engine networking.'
 entries:
 - id: docker-overview
-  name: Docker overview
+  name: Docker Engine overview
   kind: doc
-  path: content/get-started/docker-overview.md
+  path: content/manuals/engine/_index.md
   repo:
     url: https://github.com/docker/docs.git
     branch: main
     submodules: false
 - id: build-and-push-an-image
-  name: Build and push an image
+  name: Build and publish images to a registry
   kind: doc
-  path: content/get-started/docker-concepts/building-images/build-tag-and-publish-an-image.md
+  path: content/manuals/build/exporters/image-registry.md
   repo:
     url: https://github.com/docker/docs.git
     branch: main
     submodules: false
 - id: containers
-  name: Containers
+  name: Running containers
   kind: doc
-  path: content/get-started/docker-concepts/the-basics/what-is-a-container.md
+  path: _vendor/github.com/docker/cli/docs/reference/run.md
   repo:
     url: https://github.com/docker/docs.git
     branch: main
     submodules: false
 - id: images
-  name: Images
+  name: Images and Dockerfiles
   kind: doc
-  path: content/get-started/docker-concepts/the-basics/what-is-an-image.md
+  path: content/manuals/build/concepts/dockerfile.md
   repo:
     url: https://github.com/docker/docs.git
     branch: main
