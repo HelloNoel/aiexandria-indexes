@@ -26,7 +26,7 @@ Twenty English-language topics, each with eight selected documents:
 | Languages | Python 3.14, JavaScript.info, TypeScript, Go, Rust, Node.js 24 |
 | Web | React, Vue 3, Django 5.2, FastAPI |
 | Workflow | Git, GitHub Actions, npm, pytest, Python packaging, uv |
-| Infrastructure and data | Docker, Kubernetes, Redis, DuckDB 1.4 |
+| Infrastructure and data | Docker, Kubernetes, Redis, DuckDB 1.5 |
 
 Descriptions distinguish selected releases from rolling documentation. JavaScript.info
 is a community tutorial; other sources use project documentation. This is a starter

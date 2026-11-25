@@ -72,7 +72,9 @@ with tempfile.TemporaryDirectory(prefix='aiexandria-discovery-') as temp:
             paths=[s['search']['path'][-1] for s in sources[:3] if s['search']['path']]
             hit=case['expected'] in paths;hits+=hit
             if not hit:print('Miss:',case['query'],'expected',case['expected'],'got',paths)
-        assert len(list(cache.rglob('.git')))==1,'Discovery acquired a doc-only upstream repository'
+        # A collection can have several cached snapshots; check repository origins.
+        origins={git(p.parent,'config','--get','remote.origin.url') for p in cache.rglob('.git')}
+        assert origins=={repo.as_uri()},f'Discovery acquired unexpected repositories: {origins}'
         print(f'Top-three recall: {hits}/{len(cases)}; discovery acquired only the collection')
         assert hits/len(cases)>=.9
     finally:client.close()

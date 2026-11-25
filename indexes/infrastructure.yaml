@@ -22,9 +22,9 @@ entries:
   description: 'Official rolling Redis documentation: strings, hashes, lists, sets, sorted sets, streams,
     Python client and replication. Distinguish Redis Open Source from hosted-product features.'
 - id: duckdb
-  name: DuckDB 1.4
+  name: DuckDB 1.5
   kind: index
   path: indexes/duckdb.yaml
-  description: 'Official DuckDB 1.4 documentation: embedded analytical SQL, SELECT filtering, tables,
-    COPY, CSV and Parquet files, Python installation and client API. This source targets 1.4 rather than
+  description: 'Official DuckDB 1.5 documentation: embedded analytical SQL, SELECT filtering, tables,
+    COPY, CSV and Parquet files, Python installation and client API. This source targets 1.5 rather than
     all DuckDB versions.'
